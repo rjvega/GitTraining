@@ -9,5 +9,5 @@ Foo::Foo()
 
 Foo::~Foo()
 {
-	printf("Foo is uninitialized.");
+	printf("Foo is uninitialized.\n");
 }
