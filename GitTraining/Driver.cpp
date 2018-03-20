@@ -6,5 +6,9 @@ int main() {
 	Foo add(8, 7);
 	delete foo;
 
+	Foo foo1;
+	Foo foo2;
+
+	printf("Foo was called %d times.", Foo::getNumFoo());
 	return 0;
 }
